@@ -133,7 +133,7 @@ module Fastlane
                                  description: "Read/write timeout in seconds for the apk upload process",
                                default_value: 1000,
                                     optional: true,
-                                        type: Fixnum),
+                                        type: Integer),
 
 
           # FastlaneCore::ConfigItem.new(key: :your_option,
